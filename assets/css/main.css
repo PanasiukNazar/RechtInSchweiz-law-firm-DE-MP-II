@@ -38,6 +38,7 @@ body {
     color: var(--default-color);
     background-color: var(--background-color);
     font-family: var(--default-font);
+    overflow-x: hidden;
 }
 
 a {
@@ -367,6 +368,13 @@ h6 {
     .mobile-nav-active .navmenu > ul {
         display: block;
     }
+}
+.pricing-item {
+    cursor: pointer;
+}
+
+.pricing-item:hover h3 {
+    background: var(--accent-color) !important;
 }
 
 /*--------------------------------------------------------------
